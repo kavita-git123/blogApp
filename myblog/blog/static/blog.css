@@ -1,0 +1,115 @@
+.main_head
+{
+    font-style:italic;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+#sidebar
+{
+    background-color: #F2F2F2;
+    display: inline-block;
+    position: fixed;
+    right:0;
+    top:10;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400;
+    height: 130px;
+    text-align: justify;
+    margin-right: -10px;
+}
+#hr
+{
+    margin-inline-end: 80px;
+    margin-top: -20px;
+}
+.post_title
+{
+    text-decoration:none;
+    color: #00BFFF;
+}
+.date
+{
+    color: gainsboro;
+    font-style: italic;
+    font-family: auto;
+}
+#content
+{
+    font-family: sans-serif;
+    box-sizing:border-box;
+    width:70%;
+    padding:0px 20px;
+}
+.side_main_head
+{
+    font-family: sans-serif;
+}
+.side_content
+{
+    font-family: sans-serif;
+}
+.pagination
+{
+     font-weight:bold;
+}
+.pagination a
+{
+    text-decoration:none;
+    color:#00BFFF;
+    style:bold;
+}
+.share_link
+{
+    text-decoration:none;
+    color:#00BFFF;
+    style:bold;
+}
+.form label
+{
+    font-weight:bold;
+}
+#id_name, #id_email, #id_to
+{
+    background-color:#D9D9D9;
+    display: block;
+    height: 40;
+    width: 200;
+    border-style: none;
+    margin: 10px 0px;
+}
+#id_comments, #id_body
+{
+    background-color:#D9D9D9;
+    display: block;
+    height: 200;
+    width: 300;
+    border-style: none;
+    margin: 10px 0px;
+}
+.btn
+{
+    background-color:#0099CC;
+    border-style:hidden;
+    height:40px;
+    width:120px;
+    color:#fff;
+    padding:10px;
+}
+.comment:nth-child(odd)
+{
+    background-color: #D9D9D9;
+    margin-top: -20px;
+    padding: 10px;
+}
+.info
+{
+    font-weight: bold;
+    color: darkslateblue;
+}
+.comment p:nth-child(even)
+{
+    font-size: large;
+    font-weight: bold;
+}
